@@ -1,5 +1,4 @@
 #%%
-from http.client import NETWORK_AUTHENTICATION_REQUIRED
 import pickle
 import sys,os
 from typing import NewType;
