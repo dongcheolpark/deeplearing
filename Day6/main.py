@@ -16,6 +16,8 @@ def cross_entropy_error(y,t) :
 	batch_size = y.shape[0];
 	return -np.sum(np.log(y[np.arange(batch_size),t] + 1e-7)) / batch_size;
 
+
+
 (x_train,t_train), (x_test,t_test) = \
 	load_mnist(normalize= True, one_hot_label= True);
 
